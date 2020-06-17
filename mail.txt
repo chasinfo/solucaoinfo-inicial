@@ -1,0 +1,5 @@
+To: recipient@domain.com
+From: sender@domain.com
+Subject: Mail with SSMTP
+
+Hello, this is a test mail.

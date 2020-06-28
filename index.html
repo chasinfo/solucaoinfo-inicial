@@ -61,19 +61,49 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 pt-11 pt-lg-0 order-2 order-lg-1">
-          <h1>A melhor solução técnica em tecnologia</h1>
-          <h2>Temos uma equipe especializada na presteza do melhor atendimento e oferecendo os melhores produtos do mercado. </h2>
+  <section id="hero" style="display: block">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner text-center">
+        <div class="carousel-item active">
+          <img src="assets/img/assist-tec.png" class="img-fluid" alt="...">
+          <!-- <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div> -->
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img">
-          <img src="assets/img/assist-tec.png" class="img-fluid animated" alt="" style="border-radius:15px">
+        <div class="carousel-item">
+          <img src="assets/img/about-us.png" class="img-fluid" alt="...">
+          <!-- <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div> -->
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/loja.png" class="img-fluid" alt="...">
+          <!-- <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div> -->
         </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Posterior</span>
+      </a>
     </div>
-  </section><!-- End Hero -->
+  </section>
+
+
+  <!-- End Hero -->
 
   <main id="main">
 
@@ -92,13 +122,17 @@
             </p>
             <div class="row">
               <ul style="list-style-type: none;">
-                <li><i class="bx bx-chevron-right"></i>Atuando na área de tecnologia, contamos com os melhores profissionais na área de assistência técnica e
-                  comercial.</li>
-                <li><i class="bx bx-chevron-right"></i>Com toda essa dedicação, a qualidade da <b>Solução Info</b> pode ser demostrada através da variedade de produtos em estoque,
-                  seriedade no atendimento de nossos clientes e pontualidade nas entregas.</li>
-                <li><i class="bx bx-chevron-right"></i>A <b>Solução Info</b> busca junto ao mercado seu espaço no atendimento em vendas - computadores, impressoras, peças e acessórios. Visando um retorno econômico e sustentabilidade.</li>
+                <li><i class="bx bx-chevron-right"></i>
+                  Nascemos e crescemos na Cidade de Candangolândia - DF, onde iniciamos nosso pequeno negócio em Agosto de 2005.
+                </li>
+                <li><i class="bx bx-chevron-right"></i>
+                  Prestes a completar <span id="tempo_empresa"></span> anos, aprendemos com nossos erros e nos tornamos mais fortes, experientes e com um nível técnico bem avançado.
+                </li>
+                <li><i class="bx bx-chevron-right"></i>
+                  Hoje, nossos quase 16 mil clientes cadastrados se estendem em todo os Distrito Federal, temos muito orgulho em sermos referência de credibilidade e confiança, e seguimos firmes no propósito de ainda sermos a maior e melhor loja de informática de todo o DF.
+                </li>
               </ul>
-            </div>
+             </div>
           </div>
         </div>
 
@@ -128,12 +162,12 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxs-component"></i></div>
               <h4 class="title"><a href="">Assistência Técnica</a></h4>
-              <p class="description">Concertamos seu computador, impressora e celular. Reposição de peças em geral com garantia e qualidade.</p>
+              <p class="description">Especializada na venda e reparo de Notebooks, Smartphones, Impressoras, Vídeo Games e PCs Games.</p>
               <p></p>
               <p></p>
               <p>
                 <a href="#" data-toggle="modal" data-target="#staticBackdropLive" style="color:#eb5d1e">
-                  Solicite um Orçamento
+                  Clique aqui e solicite um orçamento
                 </a>
               </p>
             </div>
@@ -529,7 +563,7 @@
 
     <div class="container py-4">
       <div class="credits">
-        2020 : 2021 CHAS - <a href="mailto:carlos@chas.inf.br">Contato</a>
+        2020 CHAS - <a href="mailto:carlos@chas.inf.br">Contato</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -560,7 +594,9 @@
           $('#sent-message').hide();
           $('#formOrcamento .validate').empty();
         })
-    }); 
+    });
+
+    $("#tempo_empresa").html(2020-2005);
   </script>
 
 </body>

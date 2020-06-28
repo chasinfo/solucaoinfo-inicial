@@ -343,8 +343,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  /* height: 49vh; */
-  height: 377px;
+  height: 504px;
   background: #fef8f5;
   border-bottom: 2px solid #fcebe3;
   margin: 72px 0 -72px 0;
@@ -378,6 +377,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background: #eb5d1e;
 }
 
+#hero img {
+  border-radius: 25px;
+}
+
 #hero .btn-get-started:hover {
   background: #ef7f4d;
 }
@@ -394,7 +397,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 @media (max-width: 991px) {
   #hero {
-    height: calc(100vh - 72px);
+    height: calc(100vh - 44px);
   }
   #hero .animated {
     -webkit-animation: none;
@@ -1295,6 +1298,7 @@ section {
   text-align: center;
   font-size: 13px;
   color: #212529;
+  margin-right: 30px;
 }
 
 #footer .credits a {

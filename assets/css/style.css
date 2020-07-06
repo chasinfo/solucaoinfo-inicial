@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 72px;
+  height: 100px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header .logo h1 {
   font-size: 30px;
   margin: 0;
-  padding: 6px 0;
+  padding: 8px 0;
   line-height: 1;
   font-weight: 400;
   letter-spacing: 2px;
@@ -92,10 +92,21 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-decoration: none;
 }
 
-#header .logo img {
+#header .logo ul {
+  margin-top: 8px;
+  font-size: 10pt;
+}
+
+#header .logo ul > li {
+  padding: 1px 6px;
+  list-style: none;
+}
+
+#header .logo div {
   padding: 0;
-  margin: 0;
-  max-height: 40px;
+  margin-top: 0;
+  margin-top: -17px;
+  max-height: 74px;
 }
 
 #main {
@@ -122,7 +133,17 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   display: block;
   position: relative;
   color: #4e4039;
-  padding: 10px 15px;
+  padding: 19px 11px;
+  transition: 0.3s;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-menu span {
+  display: block;
+  position: relative;
+  color: #FFF;
+  padding: 0px 8px;
   transition: 0.3s;
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
@@ -397,7 +418,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 @media (max-width: 991px) {
   #hero {
-    height: calc(100vh - 44px);
+    /* height: calc(100vh - 44px); */
+    height: calc(140vh - -11px);
   }
   #hero .animated {
     -webkit-animation: none;

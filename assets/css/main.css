@@ -2,12 +2,12 @@
     display: block;
     position: relative;
     color: #FFF;
-    padding: 10px 15px;
+    padding: 19px 11px;
     transition: 0.3s;
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
 }
-F
+
 .active > a, .nav-menu li:hover > a {
     color: #EB5d1E;
     text-decoration: none;

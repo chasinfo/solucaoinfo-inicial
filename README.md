@@ -15,6 +15,10 @@ Site de apresentação Solução Info.
     * No formulário "Fale Conosco" foi trocado pelo "Solicite um Orçamento".
     * Os botões "Clique aqui e solicite um orçamento" foi redirecionado para o formulário "Solicite um Orçamento".
     * No rodapé da página, foi adicionado os links das Redes Sociais.
+* 0.3.0 - 12/07/2020 - Atualização da index
+    * O banner que possui a logo da empresa foi aumentado e centralizado verticalmente na parte superior da página.
+    * Centralizando o título "Quem Somos".
+    * Correção do texto localizado no terceiro parágrafo.
     
     
  

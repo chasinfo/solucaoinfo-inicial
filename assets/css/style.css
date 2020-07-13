@@ -419,7 +419,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 @media (max-width: 991px) {
   #hero {
     /* height: calc(100vh - 44px); */
-    height: calc(140vh - -11px);
+    height: calc(100% - 80px);
   }
   #hero .animated {
     -webkit-animation: none;

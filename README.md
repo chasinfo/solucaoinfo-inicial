@@ -19,6 +19,6 @@ Site de apresentação Solução Info.
     * O banner que possui a logo da empresa foi aumentado e centralizado verticalmente na parte superior da página.
     * Centralizando o título "Quem Somos".
     * Correção do texto localizado no terceiro parágrafo.
-    
+* 0.4.0 - 19/07/2020 - Atualização e correção de algumas frases na index.
     
  
